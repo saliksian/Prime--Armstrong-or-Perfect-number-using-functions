@@ -21,7 +21,7 @@ function Check_prime(number) {
   let check = true;
   if (number == 1) {
     check = false;
-  } else if (number > 1) {
+  } else if(number > 1) {
     for (let i = 0; i < number; i++) {
       if (number % i == 0) {
         check = false;
@@ -30,9 +30,8 @@ function Check_prime(number) {
     }
   }
 
-  if (check == true) {
+  if (check == true){
     console.log("Number is Prime!!");
   } else {
-    console.log("Number is not Prime!!");
+    console.log("Number is not Prime!!");}
   }
-}
